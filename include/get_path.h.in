@@ -1,0 +1,11 @@
+
+#ifndef ABOUTPATH_GET_PROJECT_PATH
+#define ABOUTPATH_GET_PROJECT_PATH
+
+// 获取项目根目录
+#define PROJECT_PATH "@MAIN_PATH@"
+
+// 根据相对路径，获取绝对路径
+const char *GetAbsolutePath(const char *relativePath);
+
+#endif
